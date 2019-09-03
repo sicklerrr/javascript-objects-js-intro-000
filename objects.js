@@ -3,5 +3,5 @@ var playlist = {
 }
 
 var updatePlaylist() {
-  playlist['artistName': 'songTitle']
+  return[...playlist,'artistName': 'songTitle']
 }
